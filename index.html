@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical AI Assistant - Chat Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Sidebar: Search History -->
+    <div class="left-sidebar">
+      <h3>Search History</h3>
+      <ul id="search-history">
+        <!-- Dynamic list of previous searches -->
+      </ul>
+    </div>
+
+    <!-- Main Content: Chat Section -->
+    <div class="main-content">
+      <div id="chat-area" class="chat-area">
+        <!-- Messages will appear here -->
+      </div>
+
+      <!-- Input Section at the Bottom -->
+      <div class="input-section">
+        <textarea id="input-message" placeholder="Type your medical question..."></textarea>
+        <button id="send-button">Send</button>
+        <button id="edit-button">Edit</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="page.js"></script>
+</body>
+</html>
